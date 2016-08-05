@@ -1,0 +1,86 @@
+body{
+  background-image: url('../Images/back.png');
+  background-size: 120%;
+
+
+
+}
+.row {
+	margin: 5px 0;
+}
+
+button.btn-default[name=submit] {
+	max-width: 100px;
+	float: right;
+}
+
+
+.col-sm-3 {
+	padding-left: 10px;
+}
+
+.round-btn {
+	border-radius: 50px;
+	float: right;
+}
+
+.footer-toolbar-image {
+	background: #000;
+	height: 35px;
+	margin-top: -35px;
+    opacity: 0.6;
+}
+
+.all-icons {
+	color: #fff;
+	margin-top: -27.5px;
+    padding: 0 10px;
+	font-size: 1.3em;
+}
+
+.like-icon {
+    font-size: 20px;
+}
+
+.comment-icon {
+	float: left;
+	opacity: 1!important;
+}
+
+.like-icon:hover, .comment-icon:hover {
+	color: blue;
+}
+
+.image-frame {
+	width: 350px;
+	height: 195px;
+	margin-bottom: 15px;
+}
+
+.comment-panel {
+	margin-top: 40px;
+	display: none;
+}
+
+.show {
+	/*display: block !important;*/
+}
+
+.img-rounded {
+	box-shadow: 3px 3px 2px 0px rgba(50, 50, 50, 0.75);
+}
+
+.photo-img {
+    max-height:400px;
+    height: 100%;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.like-label {
+    font-size: 20px;
+    padding-left: 5px;
+}
